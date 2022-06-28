@@ -17,7 +17,7 @@
 		<mule.maven.plugin.version>3.4.2</mule.maven.plugin.version>
 		<munit.version>2.3.2</munit.version>
 	</properties>
-	<profiles>
+	<!-- <profiles> -->
         <!-- <profile>
             <id>mulesoft-releases</id>
             <build>
@@ -50,8 +50,8 @@
                 </plugins>
             </build>
         </profile> -->
-        <profile>
-            <id>jfrog-releases</id>
+        <!-- <profile>
+            <id>jfrog-releases</id> -->
             <build>
                 <plugins>
                     <plugin>
@@ -132,8 +132,8 @@
                     </plugin>
                 </plugins>
             </build>
-        </profile>
-    </profiles>
+        <!-- </profile>
+    </profiles> -->
 	<dependencies>
         <dependency>
             <groupId>org.mule.connectors</groupId>
