@@ -183,14 +183,14 @@
         </repository>
     </repositories>
     <pluginRepositories>
-        <pluginRepository>
+        <pluginRepository> 
             <id>mulesoft-releases</id>
-            <name>mulesoft release repository</name>
-            <layout>default</layout>
+            <name>mulesoft release repository</name>  
+            <layout>default</layout> 
             <url>https://repository.mulesoft.org/releases/</url>
-            <snapshots>
+            <snapshots>   
                 <enabled>false</enabled>
-            </snapshots>
+            </snapshots> 
         </pluginRepository>
     </pluginRepositories>
 </project>
