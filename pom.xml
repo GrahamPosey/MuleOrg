@@ -118,8 +118,8 @@
                                         <username>${artifact_username}</username>
                                         <password>${artifact_password}</password>
                                         <excludePatterns>*-tests.jar</excludePatterns>
-                                        <repoKey>copadomule-libs-snapshot-local</repoKey>
-                                        <snapshotRepoKey>copadomule-libs-snapshot-local</snapshotRepoKey>
+                                        <repoKey>copado-demo-key</repoKey>
+                                        <snapshotRepoKey>copado-repo-key</snapshotRepoKey>
                                     </publisher>
                                     <buildInfo>
                                         <buildName>plugin-demo</buildName>
