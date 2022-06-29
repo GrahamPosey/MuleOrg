@@ -118,8 +118,8 @@
                                         <username>${artifact_username}</username>
                                         <password>${artifact_password}</password>
                                         <excludePatterns>*-tests.jar</excludePatterns>
-                                        <repoKey>copado-demo-key</repoKey>
-                                        <snapshotRepoKey>copado-repo-key</snapshotRepoKey>
+                                        <repoKey>maven-local</repoKey>
+                                        <snapshotRepoKey>maven-local</snapshotRepoKey>
                                     </publisher>
                                     <buildInfo>
                                         <buildName>plugin-demo</buildName>
